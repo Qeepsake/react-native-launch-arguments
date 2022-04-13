@@ -14,7 +14,7 @@ Mostly it's made for using
 ## Getting started
 
 ```sh
-npm i react-native-launch-arguments
+npm i @qeepsake/react-native-launch-arguments
 cd ios && pod install && cd ..
 ```
 
@@ -23,14 +23,14 @@ cd ios && pod install && cd ..
 In JS:
 
 ```js
-import { LaunchArguments } from "react-native-launch-arguments";
+import { LaunchArguments } from "@qeepsake/react-native-launch-arguments";
 LaunchArguments.value();
 ```
 
 In TS:
 
 ```ts
-import { LaunchArguments } from "react-native-launch-arguments";
+import { LaunchArguments } from "@qeepsake/react-native-launch-arguments";
 interface MyExpectedArgs {
   authToken?: string;
   skipAuth?: boolean;
